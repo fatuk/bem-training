@@ -243,7 +243,7 @@
     &--increase {}
     &--decrease {}
   }
-  &--add-btn {}
+  &__add-btn {}
 }
 
 .share-links {

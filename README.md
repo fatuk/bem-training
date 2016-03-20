@@ -27,7 +27,11 @@
 
 ```less
 // Pic 2
-// Your code goes here
+.tweet {
+	&__img {}
+	&__text {}
+	&__time {}
+}
 ```
 <hr> <br>
 
@@ -38,7 +42,16 @@
 
 ```less
 // Pic 3
-// Your code goes here
+.items {
+	&--responsive{}
+	&--parallax-effect{}
+	&--control{}
+}
+.item{
+	&__img {}
+	&__title {}
+	&__text {}	
+}
 ```
 <hr> <br>
 
@@ -49,7 +62,11 @@
 
 ```less
 // Pic 4
-// Your code goes here
+.announcement {
+	&__title {}
+	&__divider {}
+	&__subtitle {}
+}
 ```
 <hr> <br>
 
@@ -60,7 +77,17 @@
 
 ```less
 // Pic 5
-// Your code goes here
+.profile {
+	&__img {}
+	&__description {}
+	&__divider {}
+	&__text {}
+	&__advantages{}
+}
+.advantage{
+	&__name {}
+	&__value {}
+}
 ```
 <hr> <br>
 
@@ -71,6 +98,15 @@
 
 ```less
 // Pic 6
+.info {
+	&__img {}
+	&__title {}
+	&__divider {}
+	&__description {}
+	&__btn{}
+}
+
+.button{}
 // Your code goes here
 ```
 <hr> <br>
@@ -82,7 +118,23 @@
 
 ```less
 // Pic 7
-// Your code goes here
+.main-menu {
+}
+.text-item{
+	&--home {}
+	&--demos-and-features {}
+	&--pages {}
+	&--elements {}
+	&--work{}
+	&--blog{}
+	&--shop{}
+}
+.search-item{
+}
+.cart-item{
+}
+.hamburger-item{
+}
 ```
 <hr> <br>
 
@@ -93,7 +145,16 @@
 
 ```less
 // Pic 8
-// Your code goes here
+.item {
+	&__img {}
+	&__title {}
+	&__address {}
+	&__phone {}
+}
+.reactions {
+	&__rating{}
+	&__like{}
+}
 ```
 <hr> <br>
 
@@ -104,7 +165,13 @@
 
 ```less
 // Pic 9
-// Your code goes here
+.package-info {
+	&__title {}
+	&__divider {}
+	&__price {}
+	&__options {}
+	&__btn{}
+}
 ```
 <hr> <br>
 
@@ -115,7 +182,19 @@
 
 ```less
 // Pic 10
-// Your code goes here
+.reviews {
+	&__title {}
+	&__divider {}
+}
+
+.rewiew-item{
+	&__author {}
+	&__date {}
+	&__title {}
+	&__text {}
+}
+.rating{
+}
 ```
 <hr> <br>
 
@@ -126,6 +205,34 @@
 
 ```less
 // Pic 11
-// Your code goes here
+.product {
+	&__image {}
+	&__header{}
+	&__link {}
+	&__title {}
+	&__nav-button
+	&__divider {}
+	&__price {}
+	&__reviews {}
+	&__description {}
+	&__additional-info {}
+	&__count {}
+	&__add-to-cart-btn {}
+	&__rate {}
+}
+.social-panel {
+	&__share {}
+}
+.social-button{
+	&&--facebook{}
+	&&--twitter{}
+	&&--?
+}
+.rating{
+}
+.count{
+	&__text {}
+	&__nav-button {}
+}
 ```
 <hr> <br>

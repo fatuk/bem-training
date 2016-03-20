@@ -27,7 +27,11 @@
 
 ```less
 // Pic 2
-// Your code goes here
+.message {
+  &__icon {}
+  &__content {}
+  &__date {}
+}
 ```
 <hr> <br>
 
@@ -38,7 +42,12 @@
 
 ```less
 // Pic 3
-// Your code goes here
+.features {
+  &__item {}
+  &__icon {}
+  &__title
+  &__description {}
+}
 ```
 <hr> <br>
 
@@ -49,7 +58,12 @@
 
 ```less
 // Pic 4
-// Your code goes here
+.theme {
+  &__caption {}
+  &__underscore {}
+  &__description {}
+  &__feature {}
+}
 ```
 <hr> <br>
 
@@ -60,7 +74,19 @@
 
 ```less
 // Pic 5
-// Your code goes here
+.profile {
+  &__userpic {}
+  &__quote {}
+  &__mark {}
+  &__delimiter {}
+  &__description {}
+}
+.indicators {
+  &__item {}
+  &__value {}
+  &__label {}
+}
+
 ```
 <hr> <br>
 
@@ -71,7 +97,14 @@
 
 ```less
 // Pic 6
-// Your code goes here
+.product-preview {
+  &__btn {}
+}
+.product-info {
+  &__title {}
+  &__description {}
+  &__btn {}
+}
 ```
 <hr> <br>
 
@@ -82,7 +115,14 @@
 
 ```less
 // Pic 7
-// Your code goes here
+.menu {
+  &__item {}
+}
+.tools {
+  &__cart {}
+  &__search {}
+  &__hamburger {}
+}
 ```
 <hr> <br>
 
@@ -93,7 +133,17 @@
 
 ```less
 // Pic 8
-// Your code goes here
+.place-card {
+  &__description {}
+  &__name {}
+  &__address {}
+  &__phone {}
+}
+.actions {
+  &__stars {}
+  &__score {}
+  &__like {}
+}
 ```
 <hr> <br>
 
@@ -104,7 +154,19 @@
 
 ```less
 // Pic 9
-// Your code goes here
+.package {
+  &__section {
+    &--wihtout-undescore {}
+  }
+  &__name {}
+  &__price {}
+  &__amount {}
+  &__features {}
+  &__item {
+    &--included {}
+  }
+  &__btn {}
+}
 ```
 <hr> <br>
 
@@ -115,7 +177,26 @@
 
 ```less
 // Pic 10
-// Your code goes here
+.reviews {
+  &__caption {}
+}
+.review {
+  &__statistics {}
+  &__rating {
+    &--0 {}
+    &--1 {}
+    &--2 {}
+    &--3 {}
+    &--4 {}
+    &--5 {}
+  }
+  &__author {}
+  &__date {}
+  &__content {}
+  &__title {}
+  &__text {}
+  &--wihtout-undescore {}
+}
 ```
 <hr> <br>
 
@@ -126,6 +207,55 @@
 
 ```less
 // Pic 11
-// Your code goes here
+.product {
+  &__picture {}
+  &__caption {}
+  &__navbtn {
+    &--prev {}
+    &--next {}
+  }
+  &__price {}
+  &__description {}
+  &__attributes {}
+  &__review-btn {}
+  &__properties {}
+}
+.breadcrumbs {
+  &__item {}
+  &__delimiter {}
+}
+
+.reviews {
+  &__rating {
+    &--0 {}
+    &--1 {}
+    &--2 {}
+    &--3 {}
+    &--4 {}
+    &--5 {}
+  }
+  &__count {}
+}
+
+.add-to-cart {
+  &__quantity {}
+  &__qty-btn {
+    &--increase {}
+    &--decrease {}
+  }
+  &--add-btn {}
+}
+
+.share-links {
+  &__caption {}
+  &__item {
+    &--fb {}
+    &--tw {}
+    &--pin {}
+  }
+  &__count {
+    &--hidden {}
+  }
+}
 ```
 <hr> <br>

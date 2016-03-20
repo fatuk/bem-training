@@ -27,7 +27,11 @@
 
 ```less
 // Pic 2
-// Your code goes here
+.social-post {
+	&__img {}
+	&__text {}
+	&__time {}
+}
 ```
 <hr> <br>
 
@@ -38,7 +42,13 @@
 
 ```less
 // Pic 3
-// Your code goes here
+.tiles-container {
+}
+.tile {
+	&__img {}
+	&__titile {}
+	&__text {}
+}
 ```
 <hr> <br>
 
@@ -49,7 +59,12 @@
 
 ```less
 // Pic 4
-// Your code goes here
+.post-preview {
+	&__title {}
+	&__divider {}
+	&__img-divider {}
+	&__text {}
+}
 ```
 <hr> <br>
 
@@ -60,7 +75,17 @@
 
 ```less
 // Pic 5
-// Your code goes here
+.profile-info {
+	&__img {}
+	&__status {}
+	&__divider
+	&__text {}
+	&__stats-container {}
+}
+.stat {
+	&__value {}
+	&__descrption {}
+}
 ```
 <hr> <br>
 
@@ -71,7 +96,13 @@
 
 ```less
 // Pic 6
-// Your code goes here
+.slide {
+	&__img {}
+	&__title {}
+	&__divider {}
+	&__text {}
+	&__btn {}
+}
 ```
 <hr> <br>
 
@@ -82,7 +113,13 @@
 
 ```less
 // Pic 7
-// Your code goes here
+.main-menu {}
+.menu-text-item {
+	&__text {}
+}
+.menu-image-item {
+	&__img {}
+}
 ```
 <hr> <br>
 
@@ -93,7 +130,21 @@
 
 ```less
 // Pic 8
-// Your code goes here
+.poi {
+	&__top-container {}
+	&__img {}
+	&__name {}
+	&__address {}
+	&__phone-img {}
+	&__phone-text {}
+	&__bottom-container {}
+}
+.rate-bar {
+	&__stars-container {}
+	&__star {}
+	&__value {}
+}
+.favourites-icon {}
 ```
 <hr> <br>
 
@@ -104,7 +155,15 @@
 
 ```less
 // Pic 9
-// Your code goes here
+.subscription {
+	&__name {}
+	&__divider {}
+	&__price {}
+	&__duration {}
+	&__benefit-icon {}
+	&__benefit-text {}
+	&__btn {}
+}
 ```
 <hr> <br>
 
@@ -115,7 +174,23 @@
 
 ```less
 // Pic 10
-// Your code goes here
+.reviews {
+	&__title {}
+	&__divider {}
+}
+.review {
+	&__left-container {}
+	&__name {}
+	&__date {}
+	&__right-container {}
+	&__title {}
+	&__text {}
+}
+.rate-bar {}
+.star {
+	&--selected {}
+	&--deselected {}
+}
 ```
 <hr> <br>
 
@@ -126,6 +201,39 @@
 
 ```less
 // Pic 11
-// Your code goes here
+.apparel {
+	&__img {}
+	&__container {}
+	&__nav {}
+	&__nav-text {}
+	&__name {}
+	&__nav-icon {}
+	&__nav-icon--pressed {}
+	&__divider {}
+	&__price {}
+	&__description {}
+	&__quantity-container {}
+	&__quantity-count {}
+	&__quantity-img {}
+	&__quantity-img--pressed {}
+	&__btn-add {}
+	&__add-icon {}
+	&__btn-bookmark {}
+	&__bookmark-icon {}
+	&__info-text {}
+}
+.rate-bar {
+	&__stars-container {}
+	&__reviews-count {}
+}
+.star {
+	&--selected {}
+	&--deselected {}
+}
+.share {
+	&__text {}
+	&__counter {}
+	&__img {}
+}
 ```
 <hr> <br>

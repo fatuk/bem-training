@@ -27,7 +27,12 @@
 
 ```less
 // Pic 2
-// Your code goes here
+.event-item {
+  &__img {}
+  &__wrapper {}
+  &__text {}
+  &__time {}
+}
 ```
 <hr> <br>
 
@@ -38,7 +43,12 @@
 
 ```less
 // Pic 3
-// Your code goes here
+.features-container {
+  &__item-wrapper {}
+  &__item-img {}
+  &__item-title {}
+  &__item-description {}
+}
 ```
 <hr> <br>
 
@@ -49,7 +59,11 @@
 
 ```less
 // Pic 4
-// Your code goes here
+.adv-block {
+  &__title {}
+  &__separator {}
+  &__text {}
+}
 ```
 <hr> <br>
 
@@ -60,7 +74,16 @@
 
 ```less
 // Pic 5
-// Your code goes here
+.about-me {
+  &__user-img {}
+  &__about {}
+  &__dash {}
+  &__text {}
+  &__stats-wrapper {}
+  &__stats-item {}
+  &__stats-num {}
+  &__stats-legend {}
+}
 ```
 <hr> <br>
 
@@ -71,7 +94,14 @@
 
 ```less
 // Pic 6
-// Your code goes here
+.app-feature {
+  &__img {}
+  &__details-container {}
+  &__title-wrapper {}
+  &__title {}
+  &__text {}
+  &__btn {}
+}
 ```
 <hr> <br>
 
@@ -82,7 +112,13 @@
 
 ```less
 // Pic 7
-// Your code goes here
+.nav-bar {
+  &__item {}
+  &__cart {}
+  &__num-in-cart {}
+  &__search {}
+  &__more {}
+}
 ```
 <hr> <br>
 
@@ -93,7 +129,18 @@
 
 ```less
 // Pic 8
-// Your code goes here
+.place-info {
+  &__place-wrapper {}
+  &__name {}
+  &__address {}
+  &__phone-wrapper {}
+  &__phone-img {}
+  &__phone-num {}
+  &__rating-wrapper {}
+  &__rating-start {}
+  &__rating-score {}
+  &__like-btn {}
+}
 ```
 <hr> <br>
 
@@ -104,7 +151,15 @@
 
 ```less
 // Pic 9
-// Your code goes here
+.subscription-plan {
+  &__name {}
+  &__separator {}
+  &__price {}
+  &__price span {}
+  &__feature {}
+  &__feature img {}
+  &__get-started-btn {}
+}
 ```
 <hr> <br>
 
@@ -115,7 +170,18 @@
 
 ```less
 // Pic 10
-// Your code goes here
+.reviews-panel {
+  &__title {}
+  &__title-count {}
+  &__list {}
+  &__rate-col {}
+  &__review-col {}
+  &__rate {}
+  &__name {}
+  &__date-reviwed {}
+  &__review-title {}
+  &__review-text {}
+}
 ```
 <hr> <br>
 
@@ -126,6 +192,28 @@
 
 ```less
 // Pic 11
-// Your code goes here
+.product {
+  &__img {}
+  &__info {}
+  &__header
+  &__crumbs-product-name-wrapper {}
+  &__crumbs {}
+  &__product-name {}
+  &__nav-buttons-wrapper {}
+  &__nav-button {}
+  &__dash {}
+  &__price-rating-reviews-wrapper {}
+  &__price {}
+  &__rating {}
+  &__reviews {}
+  &__product-desc {}
+  &__product-data {}
+  &__product-data li {}
+  &__social {}
+  &__purchase-wrapper {}
+  &__num-to-add {}
+  &__add-to-cart-btn {}
+  &__add-to-wish-list {}
+}
 ```
 <hr> <br>

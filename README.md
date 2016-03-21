@@ -27,7 +27,11 @@
 
 ```less
 // Pic 2
-// Your code goes here
+.post {
+	&__icon {}
+	&__text {}
+	&__date {}
+}
 ```
 <hr> <br>
 
@@ -38,7 +42,16 @@
 
 ```less
 // Pic 3
-// Your code goes here
+.advantegs {
+    &__wrapper
+	&__item {}
+	&__icon {}
+	&__title {}
+	&__text {}
+	&__icon--responsive {}
+	&__icon--scroling {}
+	&__icon--fullcontrol {}
+}
 ```
 <hr> <br>
 
@@ -49,7 +62,10 @@
 
 ```less
 // Pic 4
-// Your code goes here
+.article {
+	&__title {}
+	&__text {}
+}
 ```
 <hr> <br>
 
@@ -60,7 +76,16 @@
 
 ```less
 // Pic 5
-// Your code goes here
+.profile {
+	&__avatar {}
+	&__title {}
+	&__line {}
+	&__text {}
+	&__wrapper {}
+	&__item {}
+	&__value {}
+	&__description {}
+}
 ```
 <hr> <br>
 
@@ -71,7 +96,13 @@
 
 ```less
 // Pic 6
-// Your code goes here
+.optimize-block {
+	&__img {}
+	&__title {}
+	&__btn {}
+	&__btn--view {}
+	&__btn--see {}
+}
 ```
 <hr> <br>
 
@@ -82,7 +113,14 @@
 
 ```less
 // Pic 7
-// Your code goes here
+.main-menu {
+	&__wrapper {}
+	&__item {}
+	&__link {}
+	&__link--basket {}
+	&__link--search {}
+	&__link--bar {}
+}
 ```
 <hr> <br>
 
@@ -93,7 +131,18 @@
 
 ```less
 // Pic 8
-// Your code goes here
+.info-block
+	&__wrapper {}
+	&__photo {}
+	&__title {}
+	&__address {}
+	&__icon {}
+	&__icon--phone {}
+	&__items {}
+	&__star {}
+	&__rating {}
+	&__icon--liked {}
+}
 ```
 <hr> <br>
 
@@ -104,7 +153,17 @@
 
 ```less
 // Pic 9
-// Your code goes here
+.price-block
+	&__wrapper {}
+	&__title {}
+	&__line {}
+	&__price {}
+	&__separate {}
+	&__month {}
+	&__items {}
+	&__item {}
+	&__btn {}
+}
 ```
 <hr> <br>
 
@@ -115,7 +174,20 @@
 
 ```less
 // Pic 10
-// Your code goes here
+.review
+	&__title {}
+	&__count {}
+	&__line {}
+	&__wrapper {}
+	&__comment {}
+	&__info-wrapper
+	&__rating {}
+	&__author {}
+	&__date {}
+	&__text-wrapper
+	&__title
+	&__text
+}
 ```
 <hr> <br>
 
@@ -126,6 +198,32 @@
 
 ```less
 // Pic 11
-// Your code goes here
+.product
+	&__photo {}
+	&__wrapper
+	&__item {}
+	&__breadcraums {}
+	&__separate {}
+	&__title {}
+    &__link {}
+	&__link--next {}
+	&__link--previos {}
+	$__price {}
+	&__rating {}
+	&__reviews {}
+	&__description {}
+	&__wrapper-order {}
+	&__quantity {}
+	&__link--up
+	&__link--downd
+    &__btn
+	&__link--liked
+	&__wrapper-item {}
+	&__label {}
+	&__icon {}
+	&__icon-fb {}
+	&__icon-tw {}
+	&__count
+}
 ```
 <hr> <br>

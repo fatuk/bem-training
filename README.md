@@ -45,9 +45,9 @@
 // Pic 3
 .features-container {
   &__item-wrapper {}
-  &__item-img {}
-  &__item-title {}
-  &__item-description {}
+  &__img {}
+  &__title {}
+  &__description {}
 }
 ```
 <hr> <br>
@@ -178,7 +178,7 @@
   &__review-col {}
   &__rate {}
   &__name {}
-  &__date-reviwed {}
+  &__date-reviewed {}
   &__review-title {}
   &__review-text {}
 }

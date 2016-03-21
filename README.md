@@ -9,7 +9,7 @@
  </figure>
 
 ```less
-// Pic 1qwe
+// Pic 1
 .info-block {
 	&__img {}
 	&__container {}
@@ -27,7 +27,11 @@
 
 ```less
 // Pic 2
-// Your code goes here
+.api-down-message {
+  &__logo {}
+  &__description {}
+  &__last-update {}
+}
 ```
 <hr> <br>
 
@@ -38,7 +42,18 @@
 
 ```less
 // Pic 3
-// Your code goes here
+
+.features {}
+
+.feature-block {
+  &__logo {
+    &--responsive {}
+    &--parallax {}
+    &--full-size {}
+  }
+  &__title {}
+  &__description {}
+}
 ```
 <hr> <br>
 
@@ -49,7 +64,19 @@
 
 ```less
 // Pic 4
-// Your code goes here
+.theme-annotation {
+  &__title {}
+  &__decoration {}
+  &__description {
+    &--stressed {}
+  }
+}
+
+.decoration {
+    &__line {}
+    &__icon {}
+}
+
 ```
 <hr> <br>
 
@@ -60,7 +87,18 @@
 
 ```less
 // Pic 5
-// Your code goes here
+.cv-profile {
+  &__avatar {}
+  &__title {}
+  &__decoration-line {}
+  &__description {}
+  &__counters-block {}
+}
+
+.counter {
+  &__number {}
+  &__type {}
+}
 ```
 <hr> <br>
 
@@ -71,7 +109,16 @@
 
 ```less
 // Pic 6
-// Your code goes here
+.optimized-block {
+  &__image {}
+  &__title {}
+  &__underline {}
+  &__description {}
+  &__button {
+    &--view {}
+    &--see {}
+  }
+}
 ```
 <hr> <br>
 
@@ -82,7 +129,18 @@
 
 ```less
 // Pic 7
-// Your code goes here
+.top-menu {
+  &__category {}
+  &__shopping-cart {}
+  &__icon {
+    &--search {}
+    &--menu {}
+  }
+}
+
+.shopping-cart {
+  &__items-count {}
+}
 ```
 <hr> <br>
 
@@ -93,7 +151,26 @@
 
 ```less
 // Pic 8
-// Your code goes here
+.contact-info {
+  &__image {}
+  &__status {}
+}
+
+.contact-address {
+  &__title {}
+  &__text {}
+  &__icon {}
+}
+
+.contact-status {
+  &__stars {}
+  &__score {}
+  &__favorite {}
+}
+
+.star {
+  &--selected {}
+}
 ```
 <hr> <br>
 
@@ -104,7 +181,17 @@
 
 ```less
 // Pic 9
-// Your code goes here
+.package-item {
+  &__title {}
+  &__underline {}
+  &__price {}
+  &__price-time {}
+  &__logo-feature {
+    &--unallowed {}
+  }
+  &__feature-text {}
+  &__button {}
+}
 ```
 <hr> <br>
 
@@ -115,7 +202,32 @@
 
 ```less
 // Pic 10
-// Your code goes here
+.reviews {
+  &__caption {}
+  &__count {}
+}
+
+.review-item {
+  &__info {}
+  &__text {}
+}
+
+.review-info {
+  &__stars {}
+  &__place {}
+  &__date {}
+}
+
+.review-stars {
+  &__star {
+    &--selected {}
+  }
+}
+
+.review-text {
+  &__title {}
+  &__description {}
+}
 ```
 <hr> <br>
 
@@ -126,6 +238,64 @@
 
 ```less
 // Pic 11
-// Your code goes here
+.shop-item {
+  &__image {}
+  &__title {}
+  &__decoration {}
+  &__info {}
+  &__description {}
+  &__options {}
+  &__cart {}
+  &__article {}
+  &__share {}
+}
+
+.shop-item-title {
+  &__breadcrumbs {}
+  &__title {}
+  &__button {
+    &--next {}
+    &--prev {}
+  }
+}
+
+.shop-item-info {
+  &__price {}
+  &__stars {}
+  &__reviews {}
+}
+
+.show-item-stars {
+  &__star {
+    &--selected {}
+  }
+}
+
+.shop-item-cart {
+  &__count {}
+  &__button {
+    &--up {}
+    &--down {}
+  }
+  &__cart-button {}
+  &__favorite {
+    &--added {}
+  }
+}
+
+.cart-button {
+  &__logo {}
+  &__text {}
+}
+
+.shop-item-share {
+  &__title {}
+  &__item {}
+}
+
+.share-item {
+  &__icon {}
+  &__count {}
+}
 ```
 <hr> <br>

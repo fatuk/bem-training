@@ -27,7 +27,12 @@
 
 ```less
 // Pic 2
-// Your code goes here
+.news-block {
+    &__img {}
+	&__container {}
+    &__text {}
+    &__date {}
+}
 ```
 <hr> <br>
 
@@ -38,7 +43,13 @@
 
 ```less
 // Pic 3
-// Your code goes here
+.feature {
+	&__items {}
+	&__item {}
+	&__img {}
+	&__title {}
+	&__description {}
+}
 ```
 <hr> <br>
 
@@ -49,7 +60,11 @@
 
 ```less
 // Pic 4
-// Your code goes here
+.container {
+	&__headline {}
+	&__separator {}
+	&__text {}
+}
 ```
 <hr> <br>
 
@@ -60,7 +75,15 @@
 
 ```less
 // Pic 5
-// Your code goes here
+.about {
+	&__avatar {}
+	&__summary {}
+	&__separator {}
+	&__text {}
+    &__stats-items {}
+	&__stats-item {}
+	&__stats-text {}
+}
 ```
 <hr> <br>
 
@@ -71,7 +94,12 @@
 
 ```less
 // Pic 6
-// Your code goes here
+.overview-block {
+	&__preview {}
+	&__button {}
+	&__title {}
+	&__text {}
+}
 ```
 <hr> <br>
 
@@ -82,7 +110,14 @@
 
 ```less
 // Pic 7
-// Your code goes here
+.main-menu {
+	&__items {}
+	&__item {}
+	&__cart {}
+    &__cart-total {}
+	&__search {}
+	&__toggle {}
+}
 ```
 <hr> <br>
 
@@ -93,7 +128,15 @@
 
 ```less
 // Pic 8
-// Your code goes here
+.place {
+	&__name {}
+	&__address {}
+	&__phone-number {}
+	&__rating {}
+	&__rating-item {}
+	&__rating-badge {}
+	&__like {}
+}
 ```
 <hr> <br>
 
@@ -104,7 +147,15 @@
 
 ```less
 // Pic 9
-// Your code goes here
+.subscription {
+	&__name {}
+	&__price {}
+	&__details {}
+	&__detail {}
+    &__detail-tick {}
+    &__detail-text {}
+	&__order-btn {}
+}
 ```
 <hr> <br>
 
@@ -115,7 +166,17 @@
 
 ```less
 // Pic 10
-// Your code goes here
+.review {
+	&__count {}
+    &__rows {}
+	&__row {}
+	&__rating {}
+	&__rating-item {}
+	&__reviewer {}
+	&__date {}
+	&__title {}
+	&__text {}
+}
 ```
 <hr> <br>
 
@@ -126,6 +187,26 @@
 
 ```less
 // Pic 11
-// Your code goes here
+.product {
+	&__preview {}
+	&__breadcrumbs {}
+	&__breadcrumbs-item {}
+	&__name {}
+	&__navigate-btn {}
+	&__price {}
+	&__rating {}
+	&__rating-item {}
+	&__reviews-link {}
+	&__description {}
+	&__details {}
+	&__quantity {}
+	&__quantity-btn {}
+	&__to-cart-btn {}
+	&__to-favourites-btn {}
+	&__additional-info {}
+	&__share {}
+	&__share-btn {}
+    &__views {}
+}
 ```
 <hr> <br>

@@ -28,10 +28,10 @@
 ```less
 // Pic 2
 .news-block {
-    &__img {}
+	&__img {}
 	&__container {}
-    &__text {}
-    &__date {}
+	&__text {}
+	&__date {}
 }
 ```
 <hr> <br>
@@ -80,7 +80,7 @@
 	&__summary {}
 	&__separator {}
 	&__text {}
-    &__stats-items {}
+	&__stats-items {}
 	&__stats-item {}
 	&__stats-text {}
 }
@@ -114,7 +114,7 @@
 	&__items {}
 	&__item {}
 	&__cart {}
-    &__cart-total {}
+	&__cart-total {}
 	&__search {}
 	&__toggle {}
 }
@@ -152,8 +152,8 @@
 	&__price {}
 	&__details {}
 	&__detail {}
-    &__detail-tick {}
-    &__detail-text {}
+	&__detail-tick {}
+	&__detail-text {}
 	&__order-btn {}
 }
 ```
@@ -168,7 +168,7 @@
 // Pic 10
 .review {
 	&__count {}
-    &__rows {}
+	&__rows {}
 	&__row {}
 	&__rating {}
 	&__rating-item {}
@@ -206,7 +206,7 @@
 	&__additional-info {}
 	&__share {}
 	&__share-btn {}
-    &__views {}
+	&__views {}
 }
 ```
 <hr> <br>

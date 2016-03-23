@@ -27,7 +27,11 @@
 
 ```less
 // Pic 2
-// Your code goes here
+.twitter-post {
+    &__message {}
+    &__timestamp {}
+    &__logo {}
+}
 ```
 <hr> <br>
 
@@ -38,7 +42,11 @@
 
 ```less
 // Pic 3
-// Your code goes here
+.option {
+    &__name {}
+    &__descrition {}
+    &__btn {}
+}
 ```
 <hr> <br>
 
@@ -49,7 +57,12 @@
 
 ```less
 // Pic 4
-// Your code goes here
+.article {
+    &__title {}
+    &__subline {}
+    &__text {}
+    &__text--attention {}
+}
 ```
 <hr> <br>
 
@@ -60,7 +73,15 @@
 
 ```less
 // Pic 5
-// Your code goes here
+.profile {
+    &__note {}
+    &__note--attention {}
+    &__disclaimer-message {}
+}
+.index {
+    &__count {}
+    &__description {}
+}
 ```
 <hr> <br>
 
@@ -71,7 +92,14 @@
 
 ```less
 // Pic 6
-// Your code goes here
+.product {
+    &__title {}
+    &__subline {}
+    &__description {}
+}
+.btn-details {
+    &__text {}
+}
 ```
 <hr> <br>
 
@@ -82,7 +110,12 @@
 
 ```less
 // Pic 7
-// Your code goes here
+.tab-panel {
+    &__tab {}
+    &__tab--trash {}
+    &__tab--search {}
+    &__tab--settings {}
+}
 ```
 <hr> <br>
 
@@ -93,7 +126,18 @@
 
 ```less
 // Pic 8
-// Your code goes here
+.contacts {
+    &__title {}
+    &__address {}
+    &__phone {}
+}
+.estimate {
+    &__star {}
+    &__star--filled {}
+    &__estimate {}
+    &__like {}
+    &__like--selected {}
+}
 ```
 <hr> <br>
 
@@ -104,7 +148,17 @@
 
 ```less
 // Pic 9
-// Your code goes here
+.rate {
+    &__title {}
+    &__subline {}
+    &__cost {}
+    &__period {}
+    &__btn {}
+}
+.rate-option {
+    &__status {}
+    &__label {}
+}
 ```
 <hr> <br>
 
@@ -115,7 +169,22 @@
 
 ```less
 // Pic 10
-// Your code goes here
+.reviews-panel {
+    &__title {}
+    &__subline {}
+    &__count {}
+}
+.review {
+    &__rate {}
+    &__rate--filled {}
+    &__user {}
+    &__date {}
+    &__subline {}
+}
+.review-details {
+    &__title {}
+    &__description {}
+}
 ```
 <hr> <br>
 
@@ -126,6 +195,29 @@
 
 ```less
 // Pic 11
-// Your code goes here
+.product {
+    &__image {}
+    &__title {}
+    &__subline {}
+    &__breadcrumb {}
+    &__btn-navigate {}
+    &__price {}
+    &__rate {}
+    &__rate--filled {}
+    &__reviews {}
+    &__description {}
+    &__quality {}
+    &__btn-submit {}
+    &__btn-bookmark {}
+    &__detail {}
+}
+.counter {
+    &__btn {}
+    &__text {}
+}
+.social {
+    &__title {}
+    &__item {}
+}
 ```
 <hr> <br>

@@ -27,7 +27,12 @@
 
 ```less
 // Pic 2
-// Your code goes here
+.info-block {
+    &__img {}
+    &__container {}
+    &__description {}
+    &__lastseendate {}
+}
 ```
 <hr> <br>
 
@@ -38,7 +43,12 @@
 
 ```less
 // Pic 3
-// Your code goes here
+.features-list {}
+.feature-item {
+  &__image {}
+  &__title {}
+  &__description {}
+  }
 ```
 <hr> <br>
 
@@ -49,7 +59,11 @@
 
 ```less
 // Pic 4
-// Your code goes here
+.page-header{
+  &__title
+  &__line
+  &__description
+}
 ```
 <hr> <br>
 
@@ -60,7 +74,17 @@
 
 ```less
 // Pic 5
-// Your code goes here
+.portfolio-block{
+  &__photo
+  &__title
+  &__line
+  &__description 
+}
+.proof-list {}
+.proof{
+  &__numbers
+  &__text
+} 
 ```
 <hr> <br>
 
@@ -71,7 +95,20 @@
 
 ```less
 // Pic 6
-// Your code goes here
+.page{}
+.phone{
+   &__image
+}
+.page-details{
+   &__title
+   &_divider
+   &_description
+}
+
+.btn{
+  &__frame
+  &__text
+}
 ```
 <hr> <br>
 
@@ -82,7 +119,13 @@
 
 ```less
 // Pic 7
-// Your code goes here
+.menu{}
+.menu-item{
+   &__text
+}
+.menu-item{
+   &__image
+}
 ```
 <hr> <br>
 
@@ -93,7 +136,20 @@
 
 ```less
 // Pic 8
-// Your code goes here
+.card {
+  &__bg-image
+  &__title
+  &__address
+  &__phone
+  &__number
+}
+.rating{
+   &__star{}
+   &__circle
+   &__number
+}
+
+.love{}
 ```
 <hr> <br>
 
@@ -104,7 +160,14 @@
 
 ```less
 // Pic 9
-// Your code goes here
+.package{
+   &__title{}
+   &__line{}
+   &__price{}
+   &__time{}
+   &__features{}
+   &__btn{}
+}
 ```
 <hr> <br>
 
@@ -115,7 +178,26 @@
 
 ```less
 // Pic 10
-// Your code goes here
+.review-container{
+    &__title{}
+    &__divider{}
+}
+
+.review{
+    &__title{}
+    &__description
+}
+
+.info {
+    &__rating{}
+    &__title{}
+    &__date{}
+}
+
+.star{
+  &--selected{}
+  &--unselected{}
+}
 ```
 <hr> <br>
 
@@ -126,6 +208,33 @@
 
 ```less
 // Pic 11
-// Your code goes here
+
+.item-container{
+  &__navigation-text{}
+  &__title{}
+  &__divider{}
+  &__info{}
+  &__description{}
+  &__feature{}
+  &__quantity{}
+}
+
+.add-to-cart{
+  &__image{}
+  &__title{}
+}
+
+.favorites{
+  &__image{}
+}
+
+.share-list{
+   &__text{}
+}
+
+.share-item{
+  &__logo{}
+  &__number{}
+}
 ```
 <hr> <br>

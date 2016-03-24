@@ -27,7 +27,12 @@
 
 ```less
 // Pic 2
-// Your code goes here
+.twitt {
+  &__img {}
+  &__container {}
+  &__text {}
+  &__timeline {}
+}
 ```
 <hr> <br>
 
@@ -38,7 +43,12 @@
 
 ```less
 // Pic 3
-// Your code goes here
+.container {}
+.info-block {
+  &__img {}
+  &__title {}
+  &__text {}
+}
 ```
 <hr> <br>
 
@@ -49,7 +59,11 @@
 
 ```less
 // Pic 4
-// Your code goes here
+.container {
+  &__title {}
+  &__divider {}
+  &__text
+}
 ```
 <hr> <br>
 
@@ -60,7 +74,20 @@
 
 ```less
 // Pic 5
-// Your code goes here
+.main-container {}
+.logo {
+  &__img {}
+  &__text {}
+}
+.main-info {
+  &__divider {}
+  &__text {}
+}
+.metrics {}
+.metric-info {
+  &__count {}
+  &__text {}
+}
 ```
 <hr> <br>
 
@@ -71,7 +98,21 @@
 
 ```less
 // Pic 6
-// Your code goes here
+.logo {
+  &__img {}
+  &__btn {
+    &_hover {}
+    &_pressed {}
+  }
+}
+.main-info {
+  &__title {}
+  &__description {}
+  &__btn {
+    &_hover {}
+    &_pressed {}
+  }
+}
 ```
 <hr> <br>
 
@@ -82,7 +123,13 @@
 
 ```less
 // Pic 7
-// Your code goes here
+.main-menu {
+  &__container {}
+  &__btn {}
+  &__search {}
+  &__more-info {}
+  &__shopping-cart {}
+}
 ```
 <hr> <br>
 
@@ -93,7 +140,28 @@
 
 ```less
 // Pic 8
-// Your code goes here
+.card {
+  &__container {}
+  &__title {}
+  &__address {}
+  &__footer {}
+}
+.phone {
+  &__img {}
+  &__text {}
+}
+.rating {
+  &__img {}
+  &__img-set {}
+  &__number {}
+  &__review {}
+}
+.like-btn {
+  &__img {
+    &_hover {}
+    &_clicked {}
+  }
+}
 ```
 <hr> <br>
 
@@ -104,7 +172,13 @@
 
 ```less
 // Pic 9
-// Your code goes here
+.package {
+  &__title {}
+  &__price {}
+  &__advantage-list {}
+  &__advantage-item {}
+  &__btn {}
+}
 ```
 <hr> <br>
 
@@ -115,7 +189,21 @@
 
 ```less
 // Pic 10
-// Your code goes here
+.reviews {
+  &__title {}
+  &__title-count {}
+  &__items {}
+}
+.review-item {
+  &__author {}
+  &__date {}
+  &__title {}
+  &__description {}
+}
+.rating {
+  &__img {}
+}
+
 ```
 <hr> <br>
 
@@ -126,6 +214,36 @@
 
 ```less
 // Pic 11
-// Your code goes here
+.main-container {}
+.photo {}
+.product {
+  &__price {}
+  &__rating {}
+  &__description {}
+  &__features {}
+  &__detail-info {}
+}
+.category-navigation {
+  &__structure {}
+  &__title {}
+  &__back-btn {}
+  &__forward-btn {}
+}
+.cart-btn {
+  &__img {}
+  &__text {}
+}
+.starred-btn {}
+.quantity {
+  &__text {}
+  &__selector {}
+}
+.socials {
+  &__text {}
+  &__count {}
+  &__facebook {}
+  &__twitter {}
+  &__circle {}
+}
 ```
 <hr> <br>

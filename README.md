@@ -26,8 +26,11 @@
  </figure>
 
 ```less
-// Pic 2
-// Your code goes here
+.tweet-block {
+	&__logo {}
+	&__text {}
+	&__date {}
+}
 ```
 <hr> <br>
 
@@ -37,8 +40,23 @@
  </figure>
 
 ```less
-// Pic 3
-// Your code goes here
+.items-block {}
+.item-one {
+	&__img {}
+	&__title {}
+	&__text {}
+}
+.item-two {
+	&__img {}
+	&__title {}
+	&__text {}
+}
+.item-three {
+	&__img {}
+	&__title {}
+	&__text {}
+}
+
 ```
 <hr> <br>
 
@@ -48,8 +66,12 @@
  </figure>
 
 ```less
-// Pic 4
-// Your code goes here
+.main-block {
+	&__title {}
+	&__ruller {}
+	&__text {}
+	}
+}
 ```
 <hr> <br>
 
@@ -59,8 +81,25 @@
  </figure>
 
 ```less
-// Pic 5
-// Your code goes here
+.profile-block {
+	&__avatar {}
+	&__subtitle {}
+	&__ruller {}
+	&__text {}
+}
+.stats-block {}
+.projects-stats {
+	&__number {}
+	&__title {}
+}
+.experience-stats {
+	&__number {}
+	&__title {}
+}
+.client-stats {
+	&__number {}
+	&__title {}
+}
 ```
 <hr> <br>
 
@@ -70,8 +109,17 @@
  </figure>
 
 ```less
-// Pic 6
-// Your code goes here
+.main-container {}
+.gallary {
+	&__img {}
+	&__btn {}
+}
+.info {
+	&__title {}
+	&__ruller {}
+	&__text {}
+	&__btn {}
+}
 ```
 <hr> <br>
 
@@ -81,8 +129,18 @@
  </figure>
 
 ```less
-// Pic 7
-// Your code goes here
+.main-nav-items {
+	&__link-home {}
+	&__link-demos {}
+	&__link-pages {}
+	&__link-elements {}
+	&__link-work {}
+	&__link-blog {}
+	&__link-shop {}
+	&__counter {}
+	&__search {}
+	&__toggle {}
+}
 ```
 <hr> <br>
 
@@ -92,8 +150,20 @@
  </figure>
 
 ```less
-// Pic 8
-// Your code goes here
+.container {
+	&__title {}
+	&__background {}
+}
+.address {}
+.tel {
+	&__img {}
+	&__number {}
+}
+.rating {
+	&__stars {}
+	&__score {}
+	&__like-btn {}
+}
 ```
 <hr> <br>
 
@@ -103,8 +173,17 @@
  </figure>
 
 ```less
-// Pic 9
-// Your code goes here
+.payment-plan {}
+.plan-info {
+	&__title {}
+	&__coast {}
+	&__btn-start {}
+}
+.options-items {}
+.option-item {
+	&__img {}
+	&__text {}
+}
 ```
 <hr> <br>
 
@@ -114,8 +193,20 @@
  </figure>
 
 ```less
-// Pic 10
-// Your code goes here
+.reviews-list {
+	&__header {}
+	&__number {}
+}
+.review-block {}
+.rating {
+	&__stars {}
+	&__author {}
+	&__date {}
+}
+.review-content {
+	&__title {}
+	&__text {}
+}
 ```
 <hr> <br>
 
@@ -125,7 +216,34 @@
  </figure>
 
 ```less
-// Pic 11
-// Your code goes here
+.main-block {}
+.preview-block {}
+.item-block {}
+.item-header {
+	&__path {}
+	&__name {}
+}
+.next-item {
+	&__next {}
+	&__back {}
+}
+.item-cost {}
+.item-rating {
+	&__stars {}
+	&__reviews {}
+}
+.item-discription {
+	&__discription {}
+	&__compound {}
+	&__id {}
+	&__category {}
+	&__tags {}
+}
+.item_order {
+	&__number {}
+	&__btn {}
+	&__rate {}
+}
+.socials {}
 ```
 <hr> <br>

@@ -27,7 +27,12 @@
 
 ```less
 // Pic 2
-// Your code goes here
+.post {
+    &__msg-container
+	&__img {}	
+	&__text {}
+	&__time-since-created {}
+}
 ```
 <hr> <br>
 
@@ -38,7 +43,14 @@
 
 ```less
 // Pic 3
-// Your code goes here
+.feature-block {
+    &__img {}
+    &__img--responsive {}
+    &__img--paralax {}
+    &__img--size-control {}
+	&__title {}	
+	&__text {}	
+}
 ```
 <hr> <br>
 
@@ -49,7 +61,12 @@
 
 ```less
 // Pic 4
-// Your code goes here
+.project-description {
+    &__title {}
+    &__delimiter {}
+    &__img {}   
+	&__text {}	
+}
 ```
 <hr> <br>
 
@@ -60,7 +77,18 @@
 
 ```less
 // Pic 5
-// Your code goes here
+.personal-info {
+    &__photo {}
+    &__title {}
+    &__amp-img {}
+    &__delimiter {}
+    &__text{}
+    
+    .experience-statistics{
+        &__count {}
+        &__description {}    
+    }  
+}
 ```
 <hr> <br>
 
@@ -71,7 +99,16 @@
 
 ```less
 // Pic 6
-// Your code goes here
+.project-feature {
+    .linked-image {
+        &__img {}
+        &__link {}
+    }
+    
+    &__title {}
+    &__text{}
+    &__btn{}    
+}
 ```
 <hr> <br>
 
@@ -82,7 +119,14 @@
 
 ```less
 // Pic 7
-// Your code goes here
+.project-name {}
+.menu {
+    &__text-item {}
+    &__img-item {}
+    &__img-item--cart {}
+    &__img-item--search {}
+    &__img-item--burger {}
+} 
 ```
 <hr> <br>
 
@@ -93,7 +137,21 @@
 
 ```less
 // Pic 8
-// Your code goes here
+.company-info {
+    .description{
+        &__title{}
+        &__text{}
+        &__phone-icon{}
+        &__phone{}
+    }
+
+    .rate{
+        &__stars{}
+        &__number{}
+    }
+    &__like{}   
+}
+
 ```
 <hr> <br>
 
@@ -104,7 +162,15 @@
 
 ```less
 // Pic 9
-// Your code goes here
+.package {
+    &__title{}
+    &__delimiter{}
+    &__price{}
+    &__period{}
+    &__text{}    
+}
+.check-mark{}
+.btn{}
 ```
 <hr> <br>
 
@@ -115,7 +181,18 @@
 
 ```less
 // Pic 10
-// Your code goes here
+.reviews {
+    &__title{}
+    .review{
+        &__rate-wr
+        &__rate
+        &__author
+        &__date-created
+        &__text-wr
+        &__title
+        &__text        
+    }
+}
 ```
 <hr> <br>
 
@@ -126,6 +203,36 @@
 
 ```less
 // Pic 11
-// Your code goes here
+.product {
+    &__pictur{}
+    &__description-wr{
+        .breadcrumbs{}
+        .arrow-btn{
+            &--left{}
+            &--right{}
+        }
+        &__title{}
+        &__price{}
+        &__rate{}
+        &__delimiter{}
+        &__description{}
+        &__features{}
+        &__title{}
+        .product-actions-wr{
+            &__product-count{}
+            &__add-to-cart{}
+            &__wish-list{}
+        }
+        &__sku{}
+        &__category{}
+        &__tags{}
+        .social-buttons-wr{
+            &__social-button
+            &--facebook
+            &--twitter
+            &--pinterest
+        }
+    }    
+}
 ```
 <hr> <br>

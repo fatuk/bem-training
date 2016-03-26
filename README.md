@@ -119,7 +119,13 @@
 
 ```less
 .main-nav-items {
-	&__item {}
+	&__link-home {}
+	&__link-demos {}
+	&__link-pages {}
+	&__link-elements {}
+	&__link-work {}
+	&__link-blog {}
+	&__link-shop {}
 	&__counter {}
 	&__search {}
 	&__toggle {}

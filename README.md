@@ -41,11 +41,22 @@
 
 ```less
 .items-block {}
-.item {
+.item-one {
 	&__img {}
 	&__title {}
 	&__text {}
 }
+.item-two {
+	&__img {}
+	&__title {}
+	&__text {}
+}
+.item-three {
+	&__img {}
+	&__title {}
+	&__text {}
+}
+
 ```
 <hr> <br>
 
@@ -162,17 +173,17 @@
  </figure>
 
 ```less
+.payment-plan {}
 .plan-info {
 	&__title {}
-	&__ruller {}
-	&__container {}
+	&__coast {}
+	&__btn-start {}
 }
 .options-items {}
 .option-item {
 	&__img {}
 	&__text {}
 }
-.btn {}
 ```
 <hr> <br>
 

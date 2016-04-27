@@ -27,7 +27,11 @@
 
 ```less
 // Pic 2
-// Your code goes here
+.post {
+  &__description {}
+  &__icon {}
+  &__date {}
+}
 ```
 <hr> <br>
 
@@ -38,7 +42,11 @@
 
 ```less
 // Pic 3
-// Your code goes here
+.feature {
+  &__icon {}
+  &__title {}
+  &__description {}
+}
 ```
 <hr> <br>
 
@@ -49,7 +57,11 @@
 
 ```less
 // Pic 4
-// Your code goes here
+.article {
+  &__title {}
+  &__icon-divider {}
+  &__text {}
+}
 ```
 <hr> <br>
 
@@ -60,7 +72,17 @@
 
 ```less
 // Pic 5
-// Your code goes here
+.container {
+  &__avatar {}
+  &__description {}
+  &__font-icon{}
+  &__divider {}
+  &__text {}
+  .info-block {
+    &__count{}
+    &__description {}
+  }
+}
 ```
 <hr> <br>
 
@@ -71,7 +93,15 @@
 
 ```less
 // Pic 6
-// Your code goes here
+.feature {
+  &__title {}
+  &__description {}
+  &__img {}
+  &__divider {}
+}
+.btn {
+  &_light{}
+}
 ```
 <hr> <br>
 
@@ -82,7 +112,9 @@
 
 ```less
 // Pic 7
-// Your code goes here
+.navbar {
+  &__nav-item {}
+}
 ```
 <hr> <br>
 
@@ -93,7 +125,19 @@
 
 ```less
 // Pic 8
-// Your code goes here
+.container {
+  &__title{}
+  .contacts {
+    &__address{}
+    &__phone{}
+  }
+}
+.favorite{
+}
+.rating-container {
+  &__icon {}
+  &__rate {}
+}
 ```
 <hr> <br>
 
@@ -104,7 +148,16 @@
 
 ```less
 // Pic 9
-// Your code goes here
+.info-box{
+  &__title{}
+  &__subtitle{}
+  .features{
+    &__icon{}
+    &__item{}
+  }
+  .btn{
+  }
+}
 ```
 <hr> <br>
 
@@ -115,7 +168,18 @@
 
 ```less
 // Pic 10
-// Your code goes here
+.container{
+  &__title{}
+  .info-block {
+    &__subject{}
+    &__description{}
+  }
+}
+.ratings {
+  &__icon{}
+  &__name{}
+  &__date{}
+}
 ```
 <hr> <br>
 
@@ -126,6 +190,35 @@
 
 ```less
 // Pic 11
-// Your code goes here
+.wrapper{
+  &__img{}
+  &__cost{}
+  .features{
+   &__item{}
+  }
+  &__description{}
+  &__submit-btn{}
+  .info-block {
+   &__item{}
+  }
+}
+.social {
+  &__text{}
+  &__item{}
+}
+.ratings{
+  &__icon{}
+  &__count{}
+}
+.head {
+  &__breadcrumbs{}
+  &__title{}
+}
+.counter{
+}
+.pointer{
+  &_horizontal{}
+  &_vertical{}
+}
 ```
 <hr> <br>
